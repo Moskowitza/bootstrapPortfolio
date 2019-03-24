@@ -19,36 +19,71 @@
     <title>Aaron's Page!</title>
   </head>
   <body>
+      <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Aaron</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#"
+            >Home <span class="sr-only">Home</span></a
+          >
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <!-- JumboTron -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Aaron Moskowitz</h1>
         <p class="lead">Full-Stack Developer and Celebrated TA.</p>
       </div>
     </div>
-    <div class="media">
-      <img
-        src="images/enoComputer.jpeg"
-        class="align-self-start mr-3 rounded img-fluid"
-        alt="computer Cat"
-      />
-      <div class="media-body">
-        <h5 class="mt-0">Web Developer</h5>
-        <p>
-          Hello, I'm full-stack developer specializing in finding the right
-          stack for client projects. For 15 years I've been organizing projects
-          and deploying websites and apps. I'm available for project managment,
-          design and development.
-        </p>
-        <p>
-          My expertise is with Node and JavaScript. I enjoy bringing data to
-          life with D3. I have experience building with React and GatsbyJS. I
-          build blazing fast sites that work with a variety of CMS systems.
-        </p>
-        <p>
-          I enjoy teaching new developers how to get up and running. I'm
-          currently a TA for the UPENN coding bootcamp.
-        </p>
-      </div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="media .col-sm-3">
+                <img
+                src="images/enoComputer-250x250.jpeg"
+                class="align-self-start mr-3 rounded img-fluid"
+                alt="computer Cat"
+                />
+            </div>
+            <div class="media-body .col-sm-9">
+                <h5 class="mt-0">Web Developer</h5>
+                <p>
+                  Hello, I'm full-stack developer specializing in finding the right
+                  stack for client projects. For 15 years I've been organizing projects
+                  and deploying websites and apps. I'm available for project managment,
+                  design and development.
+                </p>
+                <p>
+                  My expertise is with Node and JavaScript. I enjoy bringing data to
+                  life with D3. I have experience building with React and GatsbyJS. I
+                  build blazing fast sites that work with a variety of CMS systems.
+                </p>
+                <p>
+                  I enjoy teaching new developers how to get up and running. I'm
+                  currently a TA for the UPENN coding bootcamp.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">Aaron is on Github</div>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
